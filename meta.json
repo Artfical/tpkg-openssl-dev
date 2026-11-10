@@ -1,0 +1,24 @@
+{
+ "name": "openssl-dev",
+ "version": "3.0.2",
+ "license": "Apache-2.0",
+ "homepage": "https://www.openssl.org",
+ "licenses": [
+  "LICENSE",
+  "NOTICE.txt"
+ ],
+ "sources": [
+  "openssl-3.0.2.tar.gz"
+ ],
+ "desc": "OpenSSL 3.0.2 headers and libraries (libssl.a, libcrypto.a, libssl.so, libcrypto.so) for building programs with gcc",
+ "file": "openssl-dev-3.0.2.tpkg",
+ "size": 5238671,
+ "sha256": "41ffc27c111ebf43f42b548e25b41e1ecf35a92eb9d8dc3b1b7d052dd6a0812b",
+ "unpacked": 17436706,
+ "min_build": 615,
+ "depends": [
+  "gcc",
+  "openssl"
+ ],
+ "commands": {}
+}

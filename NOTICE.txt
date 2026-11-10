@@ -1,0 +1,6 @@
+openssl-dev 3.0.2 for tOS
+=========================
+
+Built from the release tarball beside this package (openssl-3.0.2.tar.gz), unmodified, with prefix /system/pkg/openssl-dev: headers in include/, libraries in lib/. gcc finds them by itself (its specs list this folder). License: Apache-2.0 (LICENSE).
+The headers and libraries are those of Ubuntu 22.04's libssl-dev 3.0.2 (the same OpenSSL as the openssl package), so programs link against what tOS runs.
+glibc: its programs and shared libraries are linked dynamically against the GNU C Library, which tOS's base system carries in /lib64 and /lib/x86_64-linux-gnu.
